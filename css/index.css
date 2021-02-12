@@ -79,5 +79,31 @@ body{
 }
 
 .profilearea .apresentation h1{
-    margin-bottom: 15px;
+    margin-bottom: 22px;
+}
+
+.profilearea .apresentation_picture {
+    display: table-cell;
+    float: left;
+    -webkit-filter: drop-shadow(1px 1px 15px rgba(0,0,0,0.5));
+    
+}
+
+.profilearea .apresentation .about{
+    float: left;
+    display: table-cell;
+    width: 450px;
+    margin-left: 35px;
+    
+    
+}
+
+p{
+    font-family: "Fira Code", Arial;
+    color: white;
+    font-size: 23px; 
+}
+
+.profilearea{
+    display: table;
 }
