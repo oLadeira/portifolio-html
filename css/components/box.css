@@ -1,0 +1,11 @@
+#box{
+    display: inline-block;
+    background-color: #00adb5;
+    box-shadow: 8px 8px 0 black;
+    text-align: center;
+    padding: 38px 135px;
+}
+
+#box h1{ /* por conta do espaço, estou pegando especificamente o elemento filho do #box, que no caso é o h1   */
+    margin-bottom: 18px;
+}

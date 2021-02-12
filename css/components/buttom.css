@@ -1,0 +1,19 @@
+.button { /* por conta da #, o css entende que estou me referindo a uma id com nome button */
+    background-color: #00adb5;
+    display: inline-block; /* display é a caixa invisível que fica em volta de todos os elementos do site. permitindo o ajuste de altura e largura */
+    height: 60px;
+    line-height: 60px;
+    padding-left: 20px; /* padding controla o espaçamento das bordas internas  */
+    padding-right: 20px;
+    box-shadow: 5px 5px 0px black;
+    margin-right: 0; /* removendo borda invisivel direita */
+    transition: transform 50ms linear;
+}
+
+.button:hover {
+    transform: scale(1.05);
+  }
+  
+.button:before{
+    margin: 0;
+}  
