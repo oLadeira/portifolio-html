@@ -6,9 +6,10 @@ header{
     background-color: #2E3341;
     padding-left: 30px;
     padding-right: 30px;
-    border-bottom: 10px solid black;
+    border-bottom: 8px solid black;
     padding-top: 10px;
     padding-bottom: 10px;
+    align-items: center;
 }
 
 nav{
@@ -44,17 +45,33 @@ a:before{ /* pseudo elemento */
     padding-right: 20px;
     box-shadow: 5px 5px 0px black;
     margin-right: 0; /* removendo borda invisivel direita */
+    transition: transform 50ms linear;
 }
 
 #button:hover {
-    font-size: 20px;
     transform: scale(1.05);
   }
+  
+#button:before{
+    margin: 0;
+}  
+
+#logoindex{
+    transition: transform 50ms linear;
+}
+
+#logoindex:hover{
+    transform: scale(1.04);
+}
 
 #logoindex:before{
     content: none;
 }  
-  
+
+#skills, #projetos, #contato{
+    transition: color 100ms linear;
+
+}
 #skills:hover{
     color: #00adb5;
     opacity: 92%;
@@ -73,3 +90,6 @@ a:before{ /* pseudo elemento */
 body{
     background-color: #393e46; 
 }
+
+
+
