@@ -1,0 +1,44 @@
+.social_media_icons .instagram_logo:before{
+    content: none;
+}
+
+.social_media_icons{
+    margin-top: 85px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+
+.instagram_logo{
+    transition: transform 50ms linear; 
+}
+
+.linkedin_icon{
+    transition: transform 50ms linear;     
+}
+
+.github_logo{
+    transition: transform 50ms linear; 
+}
+
+.instagram_logo:hover{
+    transform: scale(1.1);
+}
+
+.linkedin_icon:hover{
+    transform: scale(1.1);
+}
+
+.github_logo:hover{
+    transform: scale(1.1);
+}
+
+
+.social_media_icons .linkedin_icon:before{
+    content: none;
+}
+
+.social_media_icons .github_logo:before{
+    content: none;
+}
