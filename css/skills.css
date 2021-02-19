@@ -1,17 +1,19 @@
 .skills-section h1{
     text-align: center;
-    padding-top: 60px;
-    padding-bottom: 45px;
+    padding-top: 35px;
+    padding-bottom: 105px;
 }
 
 
-.html-title{
+.linguage-title{
     font-family: Ubuntu;
     color: white;
     font-size: 25px;
     margin-top: 5px;
     text-shadow: none;
 }
+
+
 
 
 
@@ -28,11 +30,12 @@ progress{
   }
 
 ::-webkit-progress-value{
-    background-color: orangered;
+    background-color: #ff5722;
 }
 
 .skills-list{
     display: flex;
+    margin-bottom: 90px;
 }
 
 .skills-list .icon{
@@ -43,4 +46,37 @@ progress{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+
+.css-bar{
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    height: 25px;
+    width: 200px;
+    border: 3px solid black;
+}
+
+.css-bar::-webkit-progress-bar {
+    background-color: white;
+  }
+
+.css-bar::-webkit-progress-value{
+    background-color: #2196f3;
+}
+
+.javascript-bar{
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    height: 25px;
+    width: 200px;
+    border: 3px solid black;
+}
+
+.javascript-bar::-webkit-progress-bar{
+    background-color: white;
+}
+
+.javascript-bar::-webkit-progress-value{
+    background-color: #ffda3e;
 }
