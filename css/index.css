@@ -110,3 +110,10 @@ p{
 .profilearea .apresentation h3{
     
 }
+
+.copyright{
+    padding-top: 54px;
+    justify-content: center;
+    display: flex;
+   
+}
