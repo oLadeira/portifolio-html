@@ -5,12 +5,15 @@
 }
 
 
-.linguage-title{
+.language-title{
     font-family: Ubuntu;
     color: white;
     font-size: 25px;
     margin-top: 5px;
     text-shadow: none;
+    position: relative;
+    left: 95px;
+    bottom: 95px;
 }
 
 
@@ -18,11 +21,13 @@
 
 
 progress{
-    box-sizing: border-box;
+    position: relative;
     -webkit-appearance: none;
     height: 25px;
     width: 200px;
     border: 3px solid black;
+    left: 95px;
+    bottom: 88px;
 }
 
 ::-webkit-progress-bar {
@@ -33,20 +38,8 @@ progress{
     background-color: #ff5722;
 }
 
-.skills-list{
-    display: flex;
-    margin-bottom: 90px;
-}
 
-.skills-list .icon{
-    margin-right: 15px;
-}
 
-.right{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
 
 
 .css-bar{
@@ -80,3 +73,65 @@ progress{
 .javascript-bar::-webkit-progress-value{
     background-color: #ffda3e;
 }
+
+
+
+.c-bar{
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    height: 25px;
+    width: 200px;
+    border: 3px solid black;
+}
+
+.c-bar::-webkit-progress-bar {
+    background-color: white;
+  }
+
+.c-bar::-webkit-progress-value{
+    background-color: #a8b9cc;
+}
+
+
+.php-bar{
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    height: 25px;
+    width: 200px;
+    border: 3px solid black;
+}
+
+.php-bar::-webkit-progress-bar {
+    background-color: white;
+  }
+
+.php-bar::-webkit-progress-value{
+    background-color: #8f9ed1;
+}
+
+.skills-title{
+    padding: 45px;
+    text-align: center;
+}
+
+
+.block{
+    display: inline-block;
+    padding: 40px;
+    width: 300px;
+    height: 100px;
+}
+
+.block-right{
+    display: inline-block;
+    padding: 40px;
+    float: right;
+    width: 300px;
+    height: 100px;
+}
+
+.format-skills{
+    margin: 0 auto;
+    width: 920px;
+}
+
